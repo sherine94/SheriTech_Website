@@ -3,17 +3,17 @@ A Front-End website as part of my University Coursework.
 This website is about a business that sells tech devices, SheriTech.
 The Website is composed of 4 pages.
 
-##HTML
-###Home
+## HTML
+### Home
 
-###Products
+### Products
 
-###Contact
+### Contact
 
-###About 
+### About 
 
-##CSS
-###Syles
+## CSS
+### Syles
 
 
-##Javascript
+## Javascript
