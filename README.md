@@ -12,7 +12,7 @@ It contains, pictures and videos.
 The products page shows some of the products the company is selling with details about these products and the prices.
 
 ### Contact
-The contact page contains the contacts information of the company for the customers. A google map that shows the address and the contact details.
+Contains a contact form.
 
 ### About 
 The about page contains general infomation about the vision of the company and its mission, with pictures and videos.
