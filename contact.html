@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,6 +8,8 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
     
@@ -21,25 +24,77 @@
     
     
     
-<div class="row">
-  <div class="col-3 col-s-3">
-    <h1>Hot Deals</h1>
-  </div>
-  <div class="col-6 col-s-9">
-    <h1>Tablets</h1>
-  </div>
-  <div class="col-3 col-s-12">
-    <h1>Mobiles</h1>
-  </div>
-</div> 
+  <div class="row">
+    <div class="col-3 col-s-3">
+    </div>
     
-    
-    
+    <div class="col-6 col-s-9">
+      <h1>Contact Form</h1>
+      <div class="container">
+        <form id="form" action="action_page.php">
 
-    
-    
-    
-    
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+          <label for="subject">Subject</label>
+          
+          <textarea id="subject" name="subject" placeholder="Write something.."  required></textarea>
+
+          <input type="submit" value="Submit">
+
+        </form>
+        </div>
+      
+    </div>
+        
+    <div class="col-3 col-s-12">
+    </div>
+  </div> 
+
+  <!-- Site footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>About</h6>
+            <p class="text-justify">SheriTech<i>FASTEST TECHNOLOGY FOR ALL</i>The simplest form of technology is the development and use of basic tools. The prehistoric discovery of how to control fire and the later Neolithic Revolution increased the available sources of food, and the invention of the wheel helped humans to travel in and control their environment. Developments in historic times, including the printing press, the telephone, and the Internet, have lessened physical barriers to communication and allowed humans to interact freely on a global scale. </p>
+          </div>
+
+        
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="footer-container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved By
+         <a href="index.html">SheriTech</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>    
+   <script src="js/media.js"></script>
 </body>
 
 
